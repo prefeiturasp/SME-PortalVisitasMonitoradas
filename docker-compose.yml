@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+    visitasmonitoradas:
+        restart: always
+        env_file:
+            - ../env_visitasmonitoradas
+        container_name: visitasmonitoradas
+        ports:
+            - '8084:80'
+        volumes:
+            - '../nfs/visitasmonitoradas-dev/uploads:/var/www/html/wp-content/uploads'
+            - '../nfs/visitasmonitoradas-dev/plugins:/var/www/html/wp-content/plugins'
+            - '../nfs/visitasmonitoradas-dev/wflogs:/var/www/html/wp-content/wflogs'
+            - '../nfs/visitasmonitoradas-dev/upgrade:/var/www/html/wp-content/upgrade'
+            - '../nfs/visitasmonitoradas-dev/ai1wm-backups:/var/www/html/wp-content/ai1wm-backups'
+            - '../nfs/visitasmonitoradas-dev/wpo-cache:/var/www/html/wp-content/wpo-cache'
+            - '../nfs/visitasmonitoradas-dev/cache:/var/www/html/wp-content/cache'
+            - '../nfs/visitasmonitoradas-dev/locationmatch:/etc/apache2/locationmatch/location_match.modsecurity'
+        image: wordpress/visitasmonitoradas
+        build: 
+            dockerfile: ./Dockerfile
+            context: . 

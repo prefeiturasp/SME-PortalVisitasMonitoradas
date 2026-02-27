@@ -1,0 +1,132 @@
+.logo-login-form{
+    position: absolute;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    margin: 0 !important;
+}
+
+.btn-back .btn {
+    background: #0F42B2;
+    border-radius: 20px;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+
+.btn-back .btn:hover{
+    color: #CCCCCC;
+}
+
+.container-forms{
+    padding-top: 190px;
+    padding-bottom: 120px;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+}
+
+.core_login_form{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 3px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 40px;
+    min-height: 450px;
+    font-family: 'Poppins', sans-serif;
+    color: #353F50;
+}
+
+.core_login_form h2{
+    color: #353F50;
+    font-size: 32px !important;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.core_login_form label {
+    display: block;
+    color: #040404;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.core_login_form input {
+    border: 1px solid #A4A4A4;
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.core_login_form .login-password {
+    margin-bottom: 5px;
+}
+
+.core_login_form .lost-pass a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.core_login_form .lost-pass .pass-text {
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 6px;
+}
+
+.core_login_form #wp-submit {
+    background: #0F42B2;
+    color: #FFFFFF;
+    border-color: #0F42B2;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 20px;
+}
+
+.core_login_form #wp-submit:hover{
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+#togglePassword {
+    margin-left: -25px;
+    cursor: pointer;
+    margin-top: 9px;
+    color: #A4A4A4;
+    position: absolute;
+}
+
+.core_login_form .error{
+    outline: 1px solid red;
+}
+
+.core_login_form .login-error,
+.core_login_form .pass-error{
+    color: #FF0000;
+    font-size: 14px;
+    font-weight: bold;
+    display: none;
+}
+
+.core_login_form .buttons-form input{
+    width: auto;
+}
+
+
+.buttons-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-form #cancel,
+.buttons-form #continue {
+    width: 47%;
+    border-radius: 20px;
+}
+
+.buttons-form #continue{
+    background: #0F42B2;
+    color: #FFFFFF;
+}
+
+.buttons-form #continue:hover{
+    color: #CCCCCC;
+}

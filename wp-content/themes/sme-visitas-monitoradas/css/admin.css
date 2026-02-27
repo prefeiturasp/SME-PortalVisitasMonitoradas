@@ -1,0 +1,77 @@
+#pages {
+    text-align: center;
+}
+
+.pages-count {
+    display: block;
+    text-align: center;
+}
+
+body {
+    background: #fff;
+}
+
+/*Cabeçalho do acf*/
+
+.acf-fc-layout-handle {
+    background: #1C2833 !important;
+    color: #fff !important;
+}
+
+div#categorias-contatodiv{
+    display: none;
+}
+
+.pages-modal {
+    text-align: left;
+    padding: 0 25px;
+}
+
+.swal2-icon.swal2-question.swal2-icon-show {
+    font-size: 20px;
+}
+
+.acf-field-628e4080d3c88 {
+    display: none;
+}
+
+/*Aviso Midia*/
+.alert-info{
+    background: #0073aa;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.alert-info.media-new{
+    margin-bottom: 15px;
+}
+
+.alert-info.grid-mode {
+    margin: 20px 50px 0 20px;
+}
+
+.alert-info a{
+    color: #FFFFFF;
+}
+
+.d-none{
+    display: none;
+}
+
+.wp-core-ui .button.button-export{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    min-height: 30px;
+    line-height: 0.307692;
+}
+
+#acf-field_63876e7de650f,
+#acf-field_6387c2be8a6c8,
+#acf-field_6387c7e97fcc3{
+    pointer-events: none;
+    pointer-events: none;
+    color: #AAA;
+    background: #F5F5F5;
+}
